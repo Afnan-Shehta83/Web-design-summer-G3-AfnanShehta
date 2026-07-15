@@ -1,0 +1,236 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:90%;
+    margin:auto;
+    color:#7aade0;
+}
+img{
+    width:100%;
+    display:block;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+ul{
+    list-style:none;
+} nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+nav ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+nav button{
+    background:#ffd11a;
+    border:none;
+    padding:10px 18px;
+    cursor:pointer;
+} .hero{
+    margin-top:30px;
+}
+.hero-text{
+    width:40%;
+    display:inline-block;
+    vertical-align:top;
+}
+.hero-text h1{
+    font-size:50px;
+    margin-bottom:30px;
+}
+.hero-text input{
+    width:250px;
+    padding:12px;
+    border:1px solid #ddd;
+}
+.hero-text button{
+    padding:12px 25px;
+    border:none;
+    background:#efc109;
+    cursor:pointer;
+}
+
+.hero-image{
+    width:58%;
+    display:inline-block;
+}
+.hero-image img{
+    height:450px;
+    object-fit:cover;
+} 
+.statistics{
+    margin:80px 0;
+}
+.left{
+    width:50%;
+    display:inline-block;
+    vertical-align:top;
+}
+.left h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+.left p{
+    margin-bottom:20px;
+    color:gray;
+    line-height:25px;
+}
+.right{
+    width:45%;
+    display:inline-block;
+    text-align:center;
+}
+.box{
+    width:180px;
+    height:150px;
+    background:#f5f5f5;
+    display:inline-block;
+    margin:10px;
+    padding-top:40px;
+}
+.box h3{
+    color:#f4b400;
+    font-size:30px;
+    margin-bottom:10px;
+} .apartments{
+    background:#f5f5f5;
+    padding:60px 30px;
+}
+.apartments h2{
+    margin-bottom:40px;
+    font-size:35px;
+}
+.cards{
+    text-align:center;
+}
+.card{
+    width:31%;
+    background:white;
+    display:inline-block;
+    margin:10px;
+    text-align:left;
+}
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+.card h4{
+    padding:15px;
+}
+.card p{
+    padding:0 15px 20px;
+    color:#f4b400;
+    font-weight:bold;
+}
+.apartments input{
+    width:250px;
+    padding:12px;
+    border:1px solid #ddd;
+    margin-top:30px;
+}
+.apartments button{
+    padding:12px 20px;
+    border:none;
+    background:#ffd11a;
+    margin-left:10px;
+} 
+.apartments button:last-child{
+    background:white;
+} .services{
+    padding:80px 0;
+}
+.services h2{
+    font-size:35px;
+    margin-bottom:40px;
+}
+.image{
+    width:20%;
+    display:inline-block;
+}
+.text{
+    width:48%;
+    display:inline-block;
+    vertical-align:top;
+    padding-left:40px;
+}
+.text h3{
+    margin-bottom:15px;
+}
+.text p{
+    color:gray;
+    margin-bottom:35px;
+    line-height:24px;
+} 
+.ads{
+    padding:50px 0;
+}
+.ad{
+    margin-bottom:60px;
+}
+.ad img{
+    width:20%;
+    height: 20%;
+    display:inline-block;
+    vertical-align:middle;
+}
+.ad div{
+    width:45%;
+    display:inline-block;
+    vertical-align:middle;
+    padding:30px;
+}
+.ad h3{
+    font-size:28px;
+    margin-bottom:20px;
+}
+.ad p{
+    color:gray;
+    line-height:25px;
+}
+
+.ad button{
+    margin-top:25px;
+    padding:12px 25px;
+    border:none;
+    background:#2c3e50;
+    color:white;
+    cursor:pointer;
+}  
+
+footer{
+    background:#23343b;
+    color:white;
+    padding:50px;
+}
+
+footer h2{
+    margin-bottom:10px;
+}footer h3{
+    margin-bottom:25px;
+}
+footer input{
+    width:300px;
+    padding:12px;
+    border:none;
+    margin-bottom:30px;
+}
+footer hr{
+    margin:30px 0;
+}
+footer div div{
+    width:19%;
+    display:inline-block;
+    vertical-align:top;
+}
+footer p{
+    margin:10px 0;
+    color:#ccc;
+}
+ 
